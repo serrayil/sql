@@ -205,5 +205,11 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 
 ```
+Reading “When Databases Get to Define Family” made me think about how technology quietly decides what counts as normal. In Pakistan’s national ID system, a person couldn’t renew his card because the database refused to recognize his mother as married. It sounds like a software glitch, but it is actually a social belief turned into a computer rule. The system assumes everyone must have two married parents and anyone outside that box just doesn’t fit into the society. That story stuck with me because it shows how technology can carry human bias, even when it looks objective.
 
+It also made me think about my own experience in Turkiye. When I was a child, our ID cards were color-coded — blue for men, red for women. It is strange to realize that even a plastic card was quietly saying something about gender. Now, the new IDs feel very different: just light grey color, biometric photos, fingerprints, even palm vein scans. The cards have chips, like the new passports do. When I had my passport about fifteen years ago, it didn’t have a chip at all, it was just a simple booklet. Now having the new chipped version made me realize how much technology has changed what identity means.
+
+At first, I thought this was progress, safer, more modern, more convenient while passing the borders with my e-passport. But sometimes I wonder what we give up for that convenience. Every fingerprint and scan we hand over is a little piece of ourselves we can’t take back. Like Pakistan’s system, ours also reflects certain values: trust in the state, belief in control and efficiency is always good.
+
+These systems show that technology isn’t neutral. It mirrors the society that builds it. We like to think machines are fairer than people, they often just learn our biases and quietly turn them into rules. I wonder what will happen with this new age of AI. I feel like we are feeding our bias into technology, so it will survive even further generations than us.
 ```
