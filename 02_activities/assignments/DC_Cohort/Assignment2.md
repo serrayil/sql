@@ -54,7 +54,11 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+The updated diagram (ERD_3) presents two ways to store customer addresses, depending on whether the business needs history or only the current information.
+
+The first method (on the left) keeps just one address per customer. When the customer moves, the old address is simply overwritten. This Type 1 SCD approach is straightforward. It works well for tasks like shipping or billing, but any past addresses disappear because no history is kept.
+
+The second method (on the right) adds versioning. Each time an address changes, the previous record becomes inactive and a new row is added with start/end dates. This Type 2 SCD preserves every address a customer has had, enabling historical reporting. It requires more data storage, but provides traceability.
 ```
 
 ***
@@ -183,5 +187,13 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+When Vicki Boykis writes that “every single piece of decision-making in a high-tech neural network initially rests on a human being manually putting something together and making a choice,” she exposes something that’s easy to forget. Behind every AI system are countless human hands and minds. The choices they make, sometimes rushed,  sometimes unconscious, shape how these systems see the world.
+
+Bias in AI isn’t magic or mystery. It’s people. When Mechanical Turk workers label an image or when linguists in the 1960s decide which words belong together as explained in the piece, or an engineer picks what examples to include in a dataset, each decision changes the model’s worldview. Even the act of defining a category, what counts as a “person,” a “pizza,” or a “criminal” is a judgment.
+
+So when AI systems mislabel someone or reinforce a stereotype, they are not going wrong. They’re just revealing the human assumptions embedded into them. ImageNet Roulette showed that the machine wasn’t being offensive on purpose;, but it learned to reflect the messy, biased judgments of the humans who built its training data, often without realizing the harm those labels could cause.
+
+The most troubling part is what happens when these human-made judgments become embedded in systems that increasingly shape everyday life. A biased label in a dataset might seem harmless, but once that dataset powers hiring tools or surveillance systems, a private human choice becomes a public social consequence.
+
+This is where technology and society collide. AI systems are treated as "neutral", and more and more authoritative, even though their foundations are built from the decisions of real people. Recognizing this human core doesn’t make AI less powerful, but it makes its ethical stakes clearer. If AI is built out of human choices, then building fairer systems means taking responsibility for the people and social dynamics that shape those choices in the first place.
 ```
